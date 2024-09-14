@@ -1,0 +1,31 @@
+{
+  "name": "mmm-socketclientcontroller",
+  "version": "1.0.0",
+  "description": "A Magic Mirror Module which connects to a socket and recieves event which are then forwarded / executed on the magic mirror.",
+  "main": "MMM-SocketClientController.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totoluto/MMM-SocketClientController.git"
+  },
+  "keywords": [
+    "Magic",
+    "Mirror",
+    "Plugin",
+    "Socket",
+    "Client",
+    "Event",
+    "forwarder"
+  ],
+  "author": "totoluto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/totoluto/MMM-SocketClientController/issues"
+  },
+  "homepage": "https://github.com/totoluto/MMM-SocketClientController#readme",
+  "dependencies": {
+    "socket.io-client": "^4.7.5"
+  }
+}
