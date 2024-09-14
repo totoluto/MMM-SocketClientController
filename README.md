@@ -26,7 +26,7 @@ npm install
 
 You can import your Module into `config.js` like this.
 
-```yaml
+```js
 {
 	module: "MMM-SocketClientController",
 		config: {
