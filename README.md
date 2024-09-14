@@ -31,7 +31,7 @@ You can import your Module into `config.js` like this.
 	module: "MMM-SocketClientController",
 		config: {
 			socketUrl: "https://to-your-web-server.com",
-       		socketToken: "your-socket-token",
+       			socketToken: "your-socket-token",
 			hdmiInput: "HDMI-1",
 		}
 }
