@@ -2,8 +2,8 @@ Module.register("MMM-SocketClientController", {
     defaults: {
         socketUrl: "",
         socketToken: "",
-        hdmiInput: "HDMI-1",
-        compositor: "wlr-randr",
+        onCommand: "wlr-randr --output HDMI-A-1 --on transform 270",
+        offConmmand: "wlr-randr --output HDMI-A-2 --off",
     },
 
     start: function() {
