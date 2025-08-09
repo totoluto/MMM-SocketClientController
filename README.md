@@ -33,7 +33,7 @@ You can import your Module into `config.js` like this.
 			socketUrl: "https://to-your-web-server.com",
        		socketToken: "your-socket-token",
         	onCommand: "wlr-randr --output HDMI-A-1 --on transform 270",
-        	offConmmand: "wlr-randr --output HDMI-A-2 --off",
+        	offConmmand: "wlr-randr --output HDMI-A-1 --off",
 		}
 }
 ```
