@@ -31,7 +31,7 @@ module.exports = NodeHelper.create({
         switch (event) {
             case "ON":
                 console.log("Turning on screen");
-                exec('xrandr --output ' + this.config.hdmiInput + ' --auto', (err, stdout, stderr) => {
+                exec(this.config.compositor + ' --output ' + this.config.hdmiInput + ' --auto', (err, stdout, stderr) => {
                     if (err) {
                         console.error(err);
                         return;
@@ -40,7 +40,7 @@ module.exports = NodeHelper.create({
                 break;
             case "OFF":
                 console.log("Turning off screen");
-                exec('xrandr --output ' + this.config.hdmiInput + ' --off', (err, stdout, stderr) => {
+                exec(this.config.compositor + '--output ' + this.config.hdmiInput + ' --off', (err, stdout, stderr) => {
                     if (err) {
                         console.error(err);
                         return;

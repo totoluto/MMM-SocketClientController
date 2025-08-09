@@ -3,6 +3,7 @@ Module.register("MMM-SocketClientController", {
         socketUrl: "",
         socketToken: "",
         hdmiInput: "HDMI-1",
+        compositor: "wlr-randr",
     },
 
     start: function() {
